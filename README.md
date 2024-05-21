@@ -21,7 +21,7 @@ Welcome to the Pharmacy Management System Database repository! This project cont
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/pharmacy-management-system-db.git
+   git clone https://github.com/Praveenkumartiwari321/Pharmacy-Management-System.git
    cd pharmacy-management-system-db
    ```
 
