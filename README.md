@@ -19,23 +19,23 @@ Welcome to the Pharmacy Management System Database repository! This project cont
 
 ### Setting Up the Database
 
-1. **Clone the repository**:
+1. **Clone the repository**:-
    ```bash
    git clone https://github.com/Praveenkumartiwari321/Pharmacy-Management-System.git
    cd pharmacy-management-system-db
    ```
 
-2. **Create the Database**:
+2. **Create the Database**:-
    ```sql
    CREATE DATABASE pharmacy_management;
    ```
 
-3. **Use the Database**:
+3. **Use the Database**:-
    ```sql
    USE pharmacy_management;
    ```
 
-4. **Run the SQL Scripts**:
+4. **Run the SQL Scripts**:-
    - Open your SQL client and execute the following script files in order:
      1. `tables.sql`: This script creates the necessary tables.
      2. `data.sql`: This script inserts initial data into the tables.
@@ -47,14 +47,14 @@ Welcome to the Pharmacy Management System Database repository! This project cont
 
 ### SQL Script Details
 
-1. **tables.sql**:
+1. **tables.sql**:-
    - Contains the SQL statements to create the tables needed for the pharmacy management system.
    - Tables include:
      - `medicines`: Stores information about medicines.
      - `sales`: Records each sale transaction.
      - `inventory`: Keeps track of stock levels and incoming goods.
 
-2. **data.sql**:
+2. **data.sql**:-
    - Contains sample data to populate the tables.
    - Provides initial data to help you get started with testing the database.
 
@@ -67,17 +67,17 @@ Welcome to the Pharmacy Management System Database repository! This project cont
    SELECT * FROM medicines WHERE name = 'medicine_name';
    ```
 
-2. **Record a Sale**:
+2. **Record a Sale**:-
    ```sql
    INSERT INTO sales (medicine_id, quantity, sale_date) VALUES (1, 2, '2024-05-21');
    ```
 
-3. **Update Inventory**:
+3. **Update Inventory**:-
    ```sql
    UPDATE inventory SET quantity = quantity + 10 WHERE medicine_id = 1;
    ```
 
-4. **View Current Inventory**:
+4. **View Current Inventory**:-
    ```sql
    SELECT * FROM inventory;
    ```
