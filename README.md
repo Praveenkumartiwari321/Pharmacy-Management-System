@@ -105,7 +105,7 @@ We welcome contributions from the community to enhance the functionality and fea
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## Contact
+## Contact:
 
 For any questions or suggestions, please open an issue in the repository or contact the project maintainers.
 
