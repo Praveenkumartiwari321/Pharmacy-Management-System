@@ -86,7 +86,7 @@ Welcome to the Pharmacy Management System Database repository! This project cont
 
 We welcome contributions from the community to enhance the functionality and features of the Pharmacy Management System Database. To contribute, please follow these steps:
 
-1. **Fork the repository**.
+1. **Fork the repository**:-
 2. **Create a new branch** for your feature or bug fix:
    ```bash
    git checkout -b feature-name
